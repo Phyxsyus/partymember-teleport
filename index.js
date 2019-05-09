@@ -57,11 +57,11 @@ module.exports = function PartymemberTeleport(dispatch) {
         }
     });
 
-    dispatch.hook('S_PARTY_MEMBER_LIST', 4, (event) => {
+    dispatch.hook('S_PARTY_MEMBER_LIST', 7, (event) => {
         partyMembers = event.members;
     });
 
-    dispatch.hook('S_PARTY_MEMBER_INTERVAL_POS_UPDATE', 2, (event) => {
+    dispatch.hook('S_PARTY_MEMBER_INTERVAL_POS_UPDATE', 3, (event) => {
     
         if (teleportTo != '') {
 
@@ -83,7 +83,7 @@ module.exports = function PartymemberTeleport(dispatch) {
 
     });
 
-    dispatch.hook('S_CHAT', 2, (event) => {
+    dispatch.hook('S_CHAT', 3, (event) => {
     
         for (let key in partyMembers) {
 
@@ -115,14 +115,14 @@ module.exports = function PartymemberTeleport(dispatch) {
 
     });
     
-    dispatch.hook('S_LOAD_TOPO', (event) => {
+    dispatch.hook('S_LOAD_TOPO', 3, (event) => {
         if (nextLocation != null) {
             Object.assign(event, nextLocation);
             return true;
         }
     });
 
-    dispatch.hook('S_SPAWN_ME', (event) => {
+    dispatch.hook('S_SPAWN_ME', 3, (event) => {
         if (nextLocation != null) {
             Object.assign(event, nextLocation);
             nextLocation = null;

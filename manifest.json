@@ -1,0 +1,18 @@
+{
+    "files": {
+        "README.md": "3a41054f818dd92370aaab0126a09c6a160bc66188fb05da9684d1e61a48c8c7",
+        "index.js": "97c0edb51f439d43576272494117a9825bbeaa97a7866c8d901a3013e63d5e5e",
+        "module.json": "352e32a6843849a95234360c904183d55912986a1cc5f8f78164ed628696ad0c"
+    },
+    "defs": {
+        "C_PCBANGINVENTORY_USE_SLOT": 1,
+        "C_TELEPORT_TO_VILLAGE": 1,
+        "S_CHAT": 3,
+        "S_LOAD_TOPO": 3,
+        "S_LOGIN": 1,
+        "S_PARTY_MEMBER_INTERVAL_POS_UPDATE": 3,
+        "S_PARTY_MEMBER_LIST": 7,
+        "S_SPAWN_ME": 3,
+        "S_VILLAGE_LIST_TO_TELEPORT": 1
+    }
+}
