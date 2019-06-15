@@ -49,7 +49,7 @@ module.exports = function PartymemberTeleport(dispatch) {
 
     }
 
-    dispatch.hook('S_LOGIN', 1, event => ({ cid } = event));
+    dispatch.hook('S_LOGIN', 13, event => ({ cid } = event));
     
     dispatch.hook('S_VILLAGE_LIST_TO_TELEPORT', 1, (event) => {
         if (villageList == null) {
