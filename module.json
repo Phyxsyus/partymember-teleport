@@ -2,7 +2,7 @@
     "disableAutoUpdate": false,
     "name": "partymember-teleport",
     "version": "09.05.2019",
-    "author": "Nekonekoo",
+    "author": "Nekonekoo, Phyxsyus",
     "description": "Teleport Script for Partymember",
-    "servers": ["https://raw.githubusercontent.com/PatrickSantoZZ/partymember-teleport/master/"]
+    "servers": ["https://raw.githubusercontent.com/Phyxsyus/partymember-teleport/master/"]
 }
