@@ -9,7 +9,7 @@
         "C_TELEPORT_TO_VILLAGE": 1,
         "S_CHAT": 3,
         "S_LOAD_TOPO": 3,
-        "S_LOGIN": 1,
+        "S_LOGIN": 13,
         "S_PARTY_MEMBER_INTERVAL_POS_UPDATE": 3,
         "S_PARTY_MEMBER_LIST": 7,
         "S_SPAWN_ME": 3,
